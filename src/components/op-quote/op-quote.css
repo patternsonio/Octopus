@@ -1,0 +1,7 @@
+.op-quote__blockquote {
+  margin: 0;
+  padding-left: var(--inner-x);
+  display: block;
+  opacity: 0.3;
+  border-left: var(--border-width) solid currentColor;
+}

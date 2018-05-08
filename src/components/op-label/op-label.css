@@ -1,0 +1,7 @@
+.op-label {
+  color: var(--label-color);
+  margin-bottom: var(--outer-y--S);
+  display: block;
+  font-weight: var(--font-weight--bold);
+  text-align: left;
+}

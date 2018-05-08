@@ -1,0 +1,10 @@
+.op-header {
+  background: var(--dark);
+  --copy-color: white;
+  height: calc(var(--base) * 120);
+  padding: var(--inner);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

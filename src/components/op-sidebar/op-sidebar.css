@@ -1,0 +1,12 @@
+.op-sidebar__placebo {
+  --width: calc(var(--base) * 80);
+  width: var(--width);
+  height: 100vh;
+}
+.op-sidebar {
+  height: 100vh;
+  width: var(--width);
+  box-shadow: var(--shadow--S);
+  background: var(--bg-color);
+  position: fixed;
+}

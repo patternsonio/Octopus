@@ -1,0 +1,11 @@
+op-card {
+  display: block;
+  box-sizing: border-box;
+  position: relative;
+  z-index: 1;
+  background: var(--light);
+  box-shadow: var(--shadow--S);
+  border-radius: var(--border-radius);
+  padding: var(--inner--L) var(--inner-x--L);
+  margin-bottom: var(--outer-y--XL);
+}

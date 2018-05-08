@@ -1,0 +1,8 @@
+.op-avatar {
+  --avatar-size: var(--size, 30px);
+  height: var(--avatar-size);
+  width: var(--avatar-size);
+  border-radius: var(--avatar-size);
+  background-size: cover;
+  background-position: center center;
+}

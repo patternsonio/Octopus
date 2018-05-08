@@ -1,0 +1,18 @@
+.p-link {
+  color: var(--main-color);
+  position: relative;
+}
+
+.p-link:focus {
+  background: var(--focus-color);
+  color: var(--bg-color);
+  outline: none;
+}
+
+.neutral {
+  color: currentColor;
+}
+
+.accent {
+  color: var(--accent-color);
+}

@@ -1,0 +1,26 @@
+.op-headline {
+  margin: 0;
+  padding: 0;
+  line-height: var(--headline--line-height);
+  font-weight: var(--headline--font-weight);
+  color: var(--copy-color);
+  letter-spacing: var(--letter-spacing);
+  font-size: var(--font-size--h-one);
+  margin-bottom: var(--outer-y--L);
+}
+
+.op-headline-2 {
+  font-size: var(--font-size--h-two);
+}
+
+.op-headline-3 {
+  font-size: calc(var(--font-size--h-three));
+}
+
+.op-headline-4 {
+  font-size: calc(var(--font-size--h-four));
+}
+
+.op-headline-5 {
+  font-size: calc(var(--font-size--h-five));
+}

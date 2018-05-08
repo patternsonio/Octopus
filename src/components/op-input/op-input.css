@@ -1,0 +1,12 @@
+.op-input {
+  display: block;
+  padding: var(--inner-y) var(--inner-x);
+  font-family: inherit;
+  width: 100%;
+  border: var(--border-width) var(--border-color) solid;
+  border-radius: var(--border-radius);
+}
+
+.op-input__text {
+  margin-bottom: var(--outer-y--S);
+}

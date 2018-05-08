@@ -1,0 +1,27 @@
+op-code {
+  position: relative;
+  display: block;
+}
+
+.op-code-content {
+  margin-bottom: var(--outer-y);
+  border-radius: var(--border-radius);
+  background: var(--op-code-background, var(--op-grey--light));
+  font-family: var(--font-family--code);
+  padding: var(--inner--L);
+  border: none;
+  border-radius: calc(var(--border-radius) * 2);
+  white-space: nowrap;
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  position: relative;
+  z-index: 5;
+  font-size: var(--font-size--S);
+  box-shadow: inset 0 0 calc(var(--base)) calc(var(--base) / 2)
+    var(--shadow-color--soft);
+}
+
+.op-code--nomargin {
+  margin-bottom: 0;
+}

@@ -1,0 +1,35 @@
+{
+	"name": "Octopus",
+	"description": "An adapting design system",
+	"scripts": {
+		"start": "sd concurrent \"stencil build --dev --watch\" \"stencil-dev-server --no-open\" ",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/patternsonio/Octopus.git"
+	},
+	"author": "patternson-octopus@lassediercks.de",
+	"license": "MIT",
+	"devDependencies": {
+		"@patternson/cli": "^1.2.1",
+		"@patternson/release": "^0.1.1",
+		"@stencil/dev-server": "0.0.18",
+		"@stencil/utils": "0.0.4",
+		"eslint": "4.19.1",
+		"eslint-config-airbnb-base": "12.1.0",
+		"eslint-config-prettier": "2.9.0",
+		"eslint-plugin-import": "2.11.0",
+		"eslint-plugin-prettier": "2.6.0",
+		"prettier": "1.12.1",
+		"semantic-release": "15.3.1"
+	},
+	"dependencies": {
+		"@stencil/core": "0.8.0"
+	},
+	"release": {
+		"extends": [
+			"@patternson/release/config"
+		]
+	}
+}

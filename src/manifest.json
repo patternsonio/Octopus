@@ -1,0 +1,9 @@
+{
+  "name": "Patternson Library",
+  "short_name": "Library",
+  "start_url": "/",
+  "display": "standalone",
+  "icons": [],
+  "background_color": "#ffffff",
+  "theme_color": "#000000"
+}

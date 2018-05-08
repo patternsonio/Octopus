@@ -1,0 +1,7 @@
+.op-navigation {
+}
+
+.op-navigation-level--two .op-navigation-item {
+  padding: var(--inner-y--S) var(--inner-x--XL);
+  border-top: 0;
+}

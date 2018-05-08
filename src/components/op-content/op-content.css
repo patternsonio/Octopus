@@ -1,0 +1,7 @@
+op-content {
+  padding: var(--inner--L);
+  margin: 0 auto;
+  max-width: var(--content-width);
+  width: 100%;
+  display: block;
+}

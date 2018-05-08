@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Stencil Starter App</title>
+  <meta name="Description" content="Welcome to the Stencil App Starter. You can use this starter to build entire apps all with web components using Stencil!">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0">
+  <meta name="theme-color" content="#16161d">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta http-equiv="x-ua-compatible" content="IE=Edge" />
+  <script src="/build/app.js"></script>
+  <link rel="manifest" href="/manifest.json">
+
+  <style>
+  :root{
+    --main-color: green;
+  }
+  body{
+    padding: 0;
+    margin: 0;
+  }
+</style>
+
+</head>
+
+<body>
+  <op-frame>
+    <op-library>
+      <pr-frame slot="footer">
+        <pr-logo href="https://patternson.io" inverted="true"></pl-logo>
+        </pr-frame>
+        <op-kitchensink></op-kitchensink>
+    </op-library>
+  </op-frame>
+
+  <script src="https://lib.patternson.io/Prisma/v/latest.js"></script>
+
+</body>
+
+</html>
