@@ -12,20 +12,21 @@
 	"author": "patternson-octopus@lassediercks.de",
 	"license": "MIT",
 	"devDependencies": {
-		"@patternson/cli": "^1.2.1",
+		"@patternson/cli": "^1.3.1",
 		"@patternson/release": "^0.1.1",
 		"@stencil/dev-server": "0.0.18",
 		"@stencil/utils": "0.0.4",
+		"@types/node": "^10.1.4",
 		"eslint": "4.19.1",
 		"eslint-config-airbnb-base": "12.1.0",
 		"eslint-config-prettier": "2.9.0",
-		"eslint-plugin-import": "2.11.0",
+		"eslint-plugin-import": "^2.12.0",
 		"eslint-plugin-prettier": "2.6.0",
-		"prettier": "1.12.1",
-		"semantic-release": "15.3.1"
+		"prettier": "^1.13.5",
+		"semantic-release": "^15.5.4"
 	},
 	"dependencies": {
-		"@stencil/core": "0.8.0"
+		"@stencil/core": "0.9.5"
 	},
 	"release": {
 		"extends": [
