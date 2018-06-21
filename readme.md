@@ -15,7 +15,18 @@ npm start
 
 ## Usage
 
-Latest: **`https://lib.patternson.io/Octopus/v/latest.js`**
+put the library in your html:
+
+`<script src="https://lib.patternson.io/Octopus/v/latest.js"></script>`
+
+Put up the frame (it serves the global css variables) and start to use components
+
+```
+<op-frame>
+  <op-headline>This is a Octopus Headline</op-headline>
+  <op-button>Checkout the repository</op-button>
+</op-frame>
+```
 
 ### Specific version:
 
