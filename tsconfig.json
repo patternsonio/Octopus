@@ -1,7 +1,16 @@
 {
   "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "allowUnreachableCode": false,
+    "declaration": false,
     "experimentalDecorators": true,
-    "jsx": "preserve",
-    "lib": ["dom", "es2017", "esnext.asynciterable"]
-  }
+    "lib": ["dom", "es2015", "esnext.asynciterable"],
+    "moduleResolution": "node",
+    "module": "es2015",
+    "target": "es2015",
+    "jsx": "react",
+    "jsxFactory": "h"
+  },
+  "include": ["src"],
+  "exclude": ["node_modules"]
 }
