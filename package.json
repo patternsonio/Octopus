@@ -1,36 +1,56 @@
 {
-	"name": "Octopus",
-	"description": "An adapting design system",
-	"scripts": {
-		"start": "sd concurrent \"stencil build --dev --watch --es5\" \"stencil-dev-server --no-open\" ",
-		"test": "echo \"Error: no test specified\" && exit 1"
-	},
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/patternsonio/Octopus.git"
-	},
-	"author": "patternson-octopus@lassediercks.de",
-	"license": "MIT",
-	"devDependencies": {
-		"@patternson/cli": "^1.3.1",
-		"@patternson/release": "^0.1.1",
-		"@stencil/dev-server": "0.0.18",
-		"@stencil/utils": "0.0.4",
-		"@types/node": "^10.1.4",
-		"eslint": "4.19.1",
-		"eslint-config-airbnb-base": "12.1.0",
-		"eslint-config-prettier": "2.9.0",
-		"eslint-plugin-import": "^2.12.0",
-		"eslint-plugin-prettier": "2.6.0",
-		"prettier": "^1.13.5",
-		"semantic-release": "^15.5.4"
-	},
-	"dependencies": {
-		"@stencil/core": "0.9.5"
-	},
-	"release": {
-		"extends": [
-			"@patternson/release/config"
-		]
-	}
+  "name": "@patternson/octopus",
+  "version": "0.0.0-development",
+  "patternson": {
+    "name": "Octopus"
+  },
+  "description": "An adapting design system",
+  "collection": "dist/collection/collection-manifest.json",
+  "types": "dist/types/components.d.ts",
+  "module": "dist/esm/index.js",
+  "main": "dist/index.js",
+  "scripts": {
+    "prepare": "stencil build",
+    "start": "sd concurrent \"stencil build --dev --watch --es5\" \"stencil-dev-server --no-open\" ",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/patternsonio/Octopus.git"
+  },
+  "author": "patternson-octopus@lassediercks.de",
+  "license": "MIT",
+  "devDependencies": {
+    "@patternson/cli": "^1.3.1",
+    "@patternson/release": "^0.1.1",
+    "@stencil/dev-server": "0.0.18",
+    "@stencil/utils": "0.0.4",
+    "@types/node": "^10.1.4",
+    "eslint": "4.19.1",
+    "eslint-config-airbnb-base": "12.1.0",
+    "eslint-config-prettier": "2.9.0",
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-prettier": "2.6.0",
+    "prettier": "^1.13.5",
+    "semantic-release": "^15.5.4"
+  },
+  "dependencies": {
+    "@stencil/core": "^0.9.11"
+  },
+  "release": {
+    "verifyConditions": [
+      "@patternson/release",
+      "@semantic-release/npm",
+      "@semantic-release/github"
+    ],
+    "prepare": [
+      "@semantic-release/npm"
+    ],
+    "publish": [
+      "@patternson/release",
+      "@semantic-release/npm",
+      "@semantic-release/github"
+    ]
+  }
+
 }
