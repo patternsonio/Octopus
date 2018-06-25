@@ -7,6 +7,7 @@ import { Component, Prop } from '@stencil/core';
 export class OpInput {
   @Prop() type: string;
   @Prop() label: string;
+  @Prop() disabled: boolean;
   @Prop() id: string;
   render() {
     return (
