@@ -2,7 +2,7 @@
 	"name": "Octopus",
 	"description": "An adapting design system",
 	"scripts": {
-		"start": "sd concurrent \"stencil build --dev --watch\" \"stencil-dev-server --no-open\" ",
+		"start": "sd concurrent \"stencil build --dev --watch --es5\" \"stencil-dev-server --no-open\" ",
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"repository": {
