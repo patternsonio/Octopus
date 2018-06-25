@@ -7,7 +7,7 @@ import { Component, Prop } from '@stencil/core';
 export class OpInput {
   @Prop() type: string;
   @Prop() label: string;
-  @Prop() inputOnChange: any;
+  @Prop() inputonchange: any;
   @Prop() id: string;
   render() {
     return (
@@ -15,7 +15,7 @@ export class OpInput {
         <op-label>
           <span class="op-input__text">{this.label}</span>
           <input
-            onChange={this.inputOnChange}
+            onChange={this.inputonchange}
             id={this.id || null}
             class="op-input"
             type={this.type}
