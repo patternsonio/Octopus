@@ -39,17 +39,17 @@
   },
   "release": {
     "verifyConditions": [
+      "@semantic-release/github",
       "@patternson/release",
-      "@semantic-release/npm",
-      "@semantic-release/github"
+      "@semantic-release/npm"
     ],
     "prepare": [
       "@semantic-release/npm"
     ],
     "publish": [
-      "@patternson/release",
+      "@semantic-release/github",
       "@semantic-release/npm",
-      "@semantic-release/github"
+      "@patternson/release"
     ]
   }
 
